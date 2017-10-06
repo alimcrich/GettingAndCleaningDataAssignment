@@ -11,6 +11,9 @@ This section describes the contents of this repository.
 |README.md| This file|
 |Codebook.md| Describes the variables in the tidy data set and the transformations undertaken to achieve the tidy data set|
 | run_analysis.R | R script to obtain the raw dataset, transform it and save to csv and txt files |
+| tidy_data.txt | TXT file of tidy dataset|
+| tidy_data.csv | CSV file of tidy dataset |
+| .gitignore | file to ignore files |
 
 ## Setup
 Before running the script, the following steps have to be completed:

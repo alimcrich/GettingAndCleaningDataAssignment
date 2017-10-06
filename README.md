@@ -19,7 +19,7 @@ This section describes the contents of this repository.
 Before running the script, the following steps have to be completed:
 
 * The R environment is installed
-* The package 'Reshape2' needs to be installed
+* The package 'reshape2' needs to be installed
 * It is assumed that the directory structure and file names of the extracted files follows that of the origin ZIP file
 
 ## How to run the Script

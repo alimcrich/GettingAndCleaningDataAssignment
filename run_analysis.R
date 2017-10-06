@@ -1,4 +1,4 @@
-library('Reshape2')
+library('reshape2')
 
 # Find data in local repository if there, if not, download and unzip
 if (!file.exists("UCI HAR Dataset")) { 

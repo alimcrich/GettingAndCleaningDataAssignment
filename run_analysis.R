@@ -2,8 +2,8 @@ library('reshape2')
 
 # Find data in local repository if there, if not, download and unzip
 if (!file.exists("UCI HAR Dataset")) { 
-  zipped_file <-  download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", filename, method="curl")
-  unzip(zipped_file) 
+  zipped_file <-  download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", 'UCI HAR Dataset.zip', method="curl")
+  unzip('UCI HAR Dataset.zip') 
 }
 
 # load activity labels
